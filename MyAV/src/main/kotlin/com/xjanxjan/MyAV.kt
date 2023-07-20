@@ -1,4 +1,4 @@
-package com.farhanwaris78
+package com.xjanxjan
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.lagradost.cloudstream3.*
@@ -11,7 +11,7 @@ import com.lagradost.cloudstream3.utils.M3u8Helper
 import com.lagradost.cloudstream3.utils.loadExtractor
 import java.util.ArrayList
 
-class KisskhProvider : MainAPI() {
+class MyAV : MainAPI() {
     override var mainUrl = "https://myav.com/en"
     override var name = "MyAV"
     override val hasMainPage = true
